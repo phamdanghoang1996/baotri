@@ -1,0 +1,2 @@
+class DoisongsController < ApplicationController
+end

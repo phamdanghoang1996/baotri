@@ -1,0 +1,2 @@
+module ThethaosHelper
+end

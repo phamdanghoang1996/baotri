@@ -1,0 +1,2 @@
+module TrangchinhsHelper
+end

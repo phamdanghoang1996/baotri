@@ -1,0 +1,2 @@
+module CongnghesHelper
+end

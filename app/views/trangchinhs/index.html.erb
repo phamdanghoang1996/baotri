@@ -1,0 +1,79 @@
+<div id="content">
+  <h3>Trang chính</h3>
+  <div class="col-md-12" id="mostview">
+
+    <div class="row">
+      <div class="col-md-4">
+        <%= image_tag 'content/1.png', alt:'Hinh anh ve bai bao', class: 'img-responsive', style: 'height: 230px;' %>
+        <h5><%=link_to @read1.title, action: 'show', id: @read1.id %></h5>
+        <p><%= @read1.introdute%></p>
+      </div>
+      <div class="col-md-8">
+        <div class="row">
+          <% @read2.each do |item| %>
+          <div class="col-md-4" style="margin-top: 20px;">
+              <%= image_tag 'content/1.png', alt:'Hinh anh ve bai bao', class: 'img-responsive', style: 'height: 100px;' %>
+              <p><%= link_to item.title, action: 'show', id:item.id %></p>
+          </div>
+          <%end%>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-12" id="technolygy_home">
+    <h4>Công nghệ</h4>
+    <div class="col-md-12">
+      <div class="row">
+        <% @read4.each do |item| %>
+        <div class="col-md-4" style="margin-top: 20px;">
+            <%= image_tag 'content/1.png', alt:'Hinh anh ve bai bao', class: 'img-responsive', style: 'height: 200px;' %>
+            <p><%= link_to item.title, action: 'show', id:item.id %></p>
+        </div>
+        <%end%>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-12" id="sport_home">
+    <h4>Thể thao</h4>
+    <div class="col-md-12">
+      <div class="row">
+        <% @read3.each do |item| %>
+        <div class="col-md-4" style="margin-top: 20px;">
+            <%= image_tag 'content/1.png', alt:'Hinh anh ve bai bao', class: 'img-responsive', style: 'height: 200px;' %>
+            <p><%= link_to item.title, action: 'show', id:item.id %></p>
+        </div>
+        <%end%>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-12" id="life_home">
+    <h4>Đời sống</h4>
+    <div class="col-md-12">
+      <div class="row">
+
+        <div class="col-md-4" style="margin-top: 20px;">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-12" id="law_home">
+    <h4>Pháp luật</h4>
+    <div class="col-md-12">
+      <div class="row">
+
+        <div class="col-md-4" style="margin-top: 20px;">
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+</div>

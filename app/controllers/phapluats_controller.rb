@@ -1,0 +1,2 @@
+class PhapluatsController < ApplicationController
+end

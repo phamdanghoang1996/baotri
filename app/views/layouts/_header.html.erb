@@ -1,0 +1,25 @@
+<div class="container">
+  <nav id="logo">
+    <div class="row">
+      <div class="col-md-2" id='logo'>
+        <%= image_tag('header/logo.png', alt: 'logo', class: 'img-responsive', style: 'width: 100px;') %>
+      </div>
+      <div class="col-md-6" id='info'>
+        <h4>Đọc báo, mọi lúc, mọi nơi</h4>
+      </div>
+      <div class="col-md-4">
+        
+      </div>
+    </div>
+
+  </nav>
+  <nav id="headerMenu">
+    <ul>
+      <li><%= link_to 'Trang chính', trangchinhs_path %></li>
+      <li><%= link_to 'Pháp luật', phapluats_path %></li>
+      <li><%= link_to 'Công nghệ', congnghes_path %></li>
+      <li><%= link_to 'Đời sống', doisongs_path %></li>
+      <li><%= link_to 'Thể thao', thethaos_path%></li>
+    </ul>
+  </nav>
+</div>

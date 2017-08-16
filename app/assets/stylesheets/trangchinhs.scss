@@ -1,0 +1,42 @@
+// Place all the styles related to the trangchinhs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#mostview {
+  background: #E7E8E1;
+}
+h3{
+  font-weight: bold;
+}
+#sport_home h4{
+  padding-left: 4px;
+  font-weight: bold;
+  border-left: 3px solid #E91802;
+}
+#technolygy_home h4{
+  margin-top: 20px;
+  padding-left: 4px;
+  border-left: 3px solid #47A1D8;
+  font-weight: bold;
+}
+#life_home h4{
+  padding-left: 4px;
+  border-left: 3px solid #86723C;
+  font-weight: bold;
+}
+#law_home h4{
+  padding-left: 4px;
+  border-left: 3px solid #AC4142;
+  font-weight: bold;
+}
+#content #mostview h5{
+  font-weight: bold;
+}
+#content #mostview p {
+  color: #484741;
+}
+#show {
+  margin-top: 30px;
+}
+#show .panel-heading{
+  border-bottom: 1px solid #7D8385;
+}

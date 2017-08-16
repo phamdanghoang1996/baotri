@@ -1,0 +1,2 @@
+class ThethaosController < ApplicationController
+end

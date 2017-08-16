@@ -1,0 +1,14 @@
+<div id="content">
+  <h3>Thêm bài viết</h3>
+  <%= form_tag({controller: 'thembaiviets', action: 'create'}, method: 'post', class: 'form-group') do %>
+    <%= label_tag(:title, 'Tiêu đề bài viết:') %>
+    <%= text_field_tag(:title,'',class:'form-control') %>
+    <%= label_tag(:introduce,'Giới thiệu bài viết') %>
+    <%= text_area_tag(:introduce,'', size:'x8',class:'form-control') %>
+    <%= label_tag(:content,'Nội dung bài viết:') %>
+    <%= text_area_tag(:content,'', size:'x12',class:'form-control') %>
+    <%= label_tag(:id_type,'Thể loại bài viết:') %>
+    <%= select_tag :id_type, options_for_select([ ['Pháp luật','1'], ['Công nghệ','2'], ['Đời sống','3'], ['Thể thao','4'] ], 'Pháp luật'), {class:'form-control'} %>
+    <%= submit_tag('Viết bài') %>
+  <% end %>
+</div>

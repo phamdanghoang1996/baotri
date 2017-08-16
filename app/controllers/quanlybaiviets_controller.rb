@@ -1,0 +1,2 @@
+class QuanlybaivietsController < ApplicationController
+end
